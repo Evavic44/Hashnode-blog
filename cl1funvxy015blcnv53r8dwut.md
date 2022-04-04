@@ -184,5 +184,5 @@ Rocketmeme is completely open-source so anyone willing to help collaborate in ad
 - [Live Preview](https://rocketmeme.com)
 - [GitHub Repository](https://github.com/Evavic44/rocketmeme)
 - [API Endpoint](https://rocketmeme-user.hasura.app/v1/graphql)
-- [API Documentation](https://github.com/Evavic44/rocketmemes-api)
+- [API Documentation](https://rocketteam.gitbook.io/rocketmemes-api/)
 - [Hasura Cloud](https://cloud.hasura.io/)
