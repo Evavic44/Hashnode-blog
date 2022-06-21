@@ -6,37 +6,22 @@ Knowing what compiler to use for your SASS project can be daunting to decide on 
 - Basic knowledge of HTML
 - Basic knowledge of CSS
 
-## What will you gain from this article.
-- A basic understanding of SASS workflow.
-- Ability to install and set up Sass. 
-- Learn the simplest way of setting SASS up in your projects.
-
 ## What is SASS
-SASS is a CSS preprocessor/precompiler that enhances the functionality of CSS. It has awesome features that help make writing CSS a lot smarter and easier. SASS stands for syntactically awesome style sheet.
+SASS is a CSS preprocessor/precompiler that enhances the functionality of CSS. It has awesome features that help make writing CSS a lot smarter and easier. SASS stands for "syntactically awesome style sheet".
 
 ## How does SASS work?
 Sass uses `.scss` or `.sass` file extensions, but `.scss` is by far the most popular.
-The browser does not read SASS files directly, it must be compiled to CSS, and there are many programs for compiling SASS files to CSS which we'll be discussing in this article. 
+The browser does not read SASS files directly, they must be compiled to CSS, and there are many programs for compiling SASS files to CSS which we'll be discussing in this article. 
 
-**Disclaimer! **⚠️
-> This article uses the `.scss` syntax because it is widely used and easier to work with. But you can go with the `.sass` extension and syntax if you want.
-
-Now you understand how SASS works, let's look at the awesome ways you can get it up and running.
-
-# UPDATE!!! 
-_Edit on (Jan 02, 2022)_
+This article uses the `.scss` syntax because it is widely used and easier to work with. But you can go with the `.sass` extension and syntax if you want.
 
 
-On Oct 26, 2021, The SASS core team released major updates to the SASS language, which deprecated LibSass, Node Sass and SassC. Which we're some ways of installing or getting Sass set up in a project. 
+### Edit on (Jan 02, 2022)
 
-**Source**
-> The time has come: we're officially announcing the deprecation of LibSass and all its wrapper interfaces, including Node Sass and SassC. We recommend all users make plans to move onto Dart Sass. https://sass-lang.com/blog/libsass-is-deprecated
+On Oct 26, 2021, The SASS core team released major updates to the SASS language, which deprecated LibSass, Node Sass, and SassC. In this edit, I'll be sharing the updated and recommended way of setting up Sass in your project.
 
-SASS {<a href="https://twitter.com/SassCSS/status/1320820104561524736?s=20">@SassCss</a>} <a href="https://twitter.com/SassCSS/status/1320820104561524736?s=20" target="_blank">Oct 26, 2020</a>·
+%[https://twitter.com/SassCSS/status/1320820104561524736?s=20]
 
-In this edit, I'll be sharing the updated and recommended way of setting up Sass in your project.
-
-## 1. Installation of Dart SASS using NPM
 
 ### Step i. Install SASS globally.
 
@@ -46,7 +31,7 @@ The first step is to install SASS globally. To do that, run the following comman
 npm install -g sass
 ```
 
-_If you run into any errors, try adding **sudo** as a prefix._
+If you run into any errors, try adding **sudo** as a prefix.
 
 ```js
 sudo npm install -g sass
@@ -57,7 +42,6 @@ This will install dart sass globally from NPM.
 ### Step ii. Create our directories
 
 The next step is to create our SCSS folder and file along with our CSS folder.
-
 You can do that in the command line or just create the folders natively on your PC.
 To do that in the command line, type the following:
 
@@ -104,11 +88,7 @@ We can see a success message that says **Compiled scss\main.scss to css\main.css
 
 ## Installation of Dart SASS locally
 
-You can also install Dart SASS into your machine by downloading one of their <a href="https://github.com/sass/dart-sass/releases/tag/1.45.1" target="_blank">packages</a> and adding it to a path folder in your machine.
-
-You can read more on how to do that <a href="https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7#file-path-md" target="_blank">here</a>
-
-Available for Windows, Mac and Linux.
+You can also install Dart SASS into your machine by downloading one of their <a href="https://github.com/sass/dart-sass/releases/tag/1.45.1" target="_blank">packages</a> and adding it to a path folder in your machine. You can read more on how to do that <a href="https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7#file-path-md" target="_blank">here</a>. Available for Windows, Mac, and Linux.
 
 ## Why Dart SASS?
 
