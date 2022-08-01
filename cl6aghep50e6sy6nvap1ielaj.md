@@ -53,7 +53,7 @@ The explore page is where all successfully registered members can be found. Once
 Excited about this? Join [here](https://spekni.vercel.app/login) 🎉
 
 ## Tools used in building Spekni
-Spekni is completely built with NextJS for the frontend and PlanetScale for the backend, and of course, PlanetScale was used for the database. Here's a short list of some of these tools:
+Spekni is completely built with NextJS for the frontend, NodeJS for the backend, and of course, PlanetScale was used for the database. Here's a short list of some of these tools:
 
 - 🎯 [NextJS](https://nextjs.org) - Frontend
 - 🌀 [NodeJS](Backend)
@@ -71,7 +71,7 @@ Spekni is completely built with NextJS for the frontend and PlanetScale for the 
 ### Frontend
 
 #### UI framework
-We used NextJS for the frontend because of its speed and great analytics. This is my first time working with NextJS and I have to say, I'm quite impressed with the framework ecosystem. One of the key reasons we used NextJS was to harness its SEO power and automatic routing system, which helped us tremendously to make Spekni fast and have a great SEO.
+We used NextJS for the frontend because of its speed and SEO analytics. This is my first time working with NextJS and I have to say, I'm quite impressed with the framework ecosystem. One of the key reasons we used NextJS was to harness its SEO power and automatic routing system, which helped us tremendously to make Spekni fast and have a great SEO.
 
 Without the need of using a routing system like [react-router](https://react-router.com). Here's the folder structure of each of the pages on Spekni. Creating a file on this page automatically creates a route with the subdomain. Which is mind-blowing 🤯
 
@@ -102,7 +102,7 @@ For the styling, we used TailwindCSS and their UI components from Headless UI to
 The backend for Spekni was built with NodeJS
 
 ## Role of PlanetScale
-Plantescale is an excellent service for creating databases swiftly. We used PlanetScale to store user data of people signed up on the platform. Here's a screenshot of what the schema looks like
+Plantescale is an excellent service for creating databases swiftly. We used PlanetScale to store user data of people signed up on the platform. Here's a graphical representation of what the database schema looks like
 
 ![database_diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659324347996/3rqRmYSya.png align="left")
 
@@ -210,7 +210,6 @@ model VerificationToken {
 
   @@unique([identifier, token])
 }
-
 ```
 
 ## Best Practices 
@@ -220,7 +219,7 @@ model VerificationToken {
 - Using accessible and semantic elements 
 - Great lighthouse audit
 
-We followed best practices and rules to ensure Spekni was accessible, easier to read, review code and contribute to. Automatically, NextJS provided much of the configuration by default which is why we opted to use it. Even the lighthouse score was pretty amazing.
+We followed best practices and rules to ensure Spekni was accessible, easier to read, review and contribute to. Automatically, NextJS provided much of the configuration by default which is why we opted to use it. Even the lighthouse score was pretty amazing.
 
 ![lighthouse.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659367485577/pOrt5jGOt.png align="left")
 
