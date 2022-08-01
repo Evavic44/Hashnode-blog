@@ -1,6 +1,6 @@
 ## Spekni - A recognition platform built for developer endorsements
 
-[Spekni](https://spekni.com) is a platform for recognizing developers making an impact, contributing to better open-source projects, helping other developers, creating quality tutorials, and writing helpful articles in the tech community for the sole purpose of getting them noticed by the right people. 
+[Spekni](https://spekni.vercel.app) is a platform for recognizing developers making an impact, contributing to better open-source projects, helping other developers, creating quality tutorials, and writing helpful articles in the tech community for the sole purpose of getting them noticed by the right people. 
 
 Spekni also works as a platform for finding capable developers because we simplify the process for recruiters to find passionate developers. We know most companies find it hard to find well-experienced developers who match the skills on their resumes. Endorsements from other experienced developers can go a long way in fixing that problem.
 
@@ -165,7 +165,7 @@ It will be impossible to complete this project without giving proper credit to t
 - [Nicholas Ovunda](https://github.com/nicholasovunda) - Backend and UI design
 
 ## Important Links
-- [Live URL](https://spekni.com)
+- [Live URL](https://spekni.vercel.app)
 - [GitHub URL](https://github.com/evavic44/spekni)
 
 This project was built for the [PlanetScale](https://planetscale.com) and [Hashnode](https://hashnode.com) Hackathon
