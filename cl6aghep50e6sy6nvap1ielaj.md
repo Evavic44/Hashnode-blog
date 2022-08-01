@@ -32,7 +32,7 @@ Though we are still working on making this more accessible to users, so if you h
 
 ###  📍 Profile
 
-Automatically all data provided in this form are stored on the PlanetScale database. A simple configuration of the database and code will allow these skills to be endorsable. Your profile is stored in your unique username which another user can visit to see your profile, for example, you can check out my profile: [https://spekni.com/eke](https://spekni.com/eke)
+Automatically all data provided in this form are stored on the PlanetScale database. A simple configuration of the database and code will allow these skills to be endorsable. Your profile is stored in your unique username which another user can visit to see your profile, for example, you can check out my profile: [https://spekni.vercel.app/eke](https://spekni.vercel.app/eke)
 
 ###  📍 Endorsements
 Once you finish setting up your profile, you can now start getting your skills endorsed by other people who register on the platform. It's pretty straightforward.
@@ -50,7 +50,7 @@ The explore page is where all successfully registered members can be found. Once
 
 ![explore.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659339477080/b0m5EQOue.png align="left")
 
-Excited about this? Join [here](https://vercel.app/login) 🎉
+Excited about this? Join [here](https://spekni.vercel.app/login) 🎉
 
 ## Tools used in building Spekni
 Spekni is completely built with NextJS for the frontend and PlanetScale for the backend, and of course, PlanetScale was used for the database. Here's a short list of some of these tools:
@@ -75,7 +75,6 @@ We used NextJS for the frontend because of its speed and great analytics. This i
 
 Without the need of using a routing system like [react-router](https://react-router.com). Here's the folder structure of each of the pages on Spekni. Creating a file on this page automatically creates a route with the subdomain. Which is mind-blowing 🤯
 
-Here's the folder structure of our pages directory:
 ```js
 ├── pages
 │   ├── [username]
@@ -100,7 +99,7 @@ For the styling, we used TailwindCSS and their UI components from Headless UI to
 ![build-size.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659332767817/lWP8eY-lx.png align="left")
 
 ### Backend
-The backend for Spekni was built in NodeJS
+The backend for Spekni was built with NodeJS
 
 ## Role of PlanetScale
 Plantescale is an excellent service for creating databases swiftly. We used PlanetScale to store user data of people signed up on the platform. Here's a screenshot of what the schema looks like
@@ -108,6 +107,122 @@ Plantescale is an excellent service for creating databases swiftly. We used Plan
 ![database_diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659324347996/3rqRmYSya.png align="left")
 
 We used Prisma as an ORM(Object-relational mapping tool) for our database, we also leveraged Prisma's schema feature to define types for database tables and entities which we pushed to planetscale 
+
+And here's an in-depth look of our schema
+```js
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
+}
+
+datasource db {
+  provider             = "mysql"
+  url                  = env("DATABASE_URL")
+  referentialIntegrity = "prisma"
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Profile {
+  id            Int      @id @default(autoincrement())
+  bio           String?  @db.TinyText
+  job_title     String?
+  githubLink    String?
+  username      String?  @unique
+  portfolioLink String?
+  twitterLink   String?
+  linkedinLink  String?
+  fullName      String?
+  userId        String
+  email         String   @unique
+  createdAt     DateTime @default(now())
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Endorsement {
+  id         Int    @id @default(autoincrement())
+  userId     String
+  skillId    Int
+  fromUserId String
+  endorsers  User   @relation(fields: [fromUserId], references: [id], onDelete: Cascade)
+  skill      Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+}
+
+model Recommendation {
+  id         Int    @id @default(autoincrement())
+  userId     String
+  fromUserId String
+  summary    String @db.Text
+  createdAt  DateTime @default(now())
+  user       User   @relation(fields: [fromUserId], references: [id], onDelete: Cascade)
+}
+
+model Skill {
+  id           Int           @id @default(autoincrement())
+  skillName    String
+  userId       String
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  endorsements Endorsement[]
+}
+
+model User {
+  id              String           @id @default(cuid())
+  name            String?
+  email           String?          @unique
+  emailVerified   DateTime?
+  image           String?
+  accounts        Account[]
+  sessions        Session[]
+  endorsements    Endorsement[]
+  Profile         Profile[]
+  Skill           Skill[]
+  recommendations Recommendation[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+```
+
+## Best Practices 
+- Prettier and ESLint for linting, indentation, and consistent code styles.
+- NextJS components and CSS variables to enforce DRY code.
+- Asset optimization for mobile users.
+- Using accessible and semantic elements 
+- Great lighthouse audit
+
+We followed best practices and rules to ensure Spekni was accessible, easier to read, review code and contribute to. Automatically, NextJS provided much of the configuration by default which is why we opted to use it. Even the lighthouse score was pretty amazing.
+
+![lighthouse.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659367485577/pOrt5jGOt.png align="left")
 
 ## Running spekni locally.
 
@@ -125,7 +240,9 @@ Open `http://localhost:3000` with your browser to see the result.
 Building Spekni was an amazing experience, but there were some challenges we had that I believe will be beneficial to explain how we solved them. 
 
 ### Prisma windows error
-We had a few system compatibility issues with prisma. Spiff was on a linux machine while I am on windows. Running `prisma generate` wasn't working for me initially but it worked on Spiff's linux environment. 
+We had a few system compatibility issues when running `prisma generate` locally, and what was worse is that this error affected only the windows environment, running Prisma on Mac and Linux environments worked flawlessly.  
+
+Here is the error:
 
 ```js
 error - Error: @prisma/client did not initialize yet. Please run "Prisma generate" and try to import it again.
@@ -135,14 +252,7 @@ In case this error is unexpected for you, please report it at https://github.com
 ```js
  Attempted to load @next/swc-win32-x64-msvc, but an error occurred: The specified module could not be found.
 ```
-
-Prisma will not work because we need to install Microsoft VC++ redistributable packages on a Windows machine, you can install [here](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170): 
-
-Download both the x32 and x64 versions, after installing it, run:
-
-```js
-npx Prisma generate
-```
+It took a lot of research and debugging but we finally discovered the issue was [Microsoft VC++ redistributable package](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) Prisma depended on was missing on my PC.  After downloading and installing both the x32 and x64 bit versions, `prisma generate` finally worked!
 
 ## Additional Features and Summary
 These are some of the features we weren't able to implement before launching Spekni. Though we are currently working on them so keep an eye out for the next release. 👀
