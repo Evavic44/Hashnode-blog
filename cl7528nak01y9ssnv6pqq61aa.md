@@ -1,10 +1,12 @@
 ## How open source can boost your career as a developer?
 
-Many junior or entry-level developers struggle to get opportunities because of little or no significant work experience. Good coding skills are essential, but employers today are looking for developers who know more than just how to write good code. One of the vital elements recruiters are looking for is soft skills and work experience. And to get work experience, you need to work at a job.
+Many junior or entry-level developers struggle to get opportunities because of little or no significant work experience. Good coding skills are essential, but employers today are looking for developers who know more than just how to write good code. One of the vital elements recruiters are looking for is soft skills and work experience. 
+
+The frustrating part of all this is that you need to work at a job to get any work experience.
 
 <img src="https://media0.giphy.com/media/E2USislQIlsfm/giphy.gif?cid=ecf05e47z81wlhqf3hznk1ivbmiwegxrw4ps1m8zmhz7nn10&rid=giphy.gif&ct=g" alt="Banging your head on a table">
 
-While some developers immediately start getting opportunities after graduating from college or boot camp, many developers still face this issue. Speaking from experience, I have built plenty of projects, cloned websites from end to end, and won several hackathons. Yet my first tech job came from a somewhat overlooked territory by many developers.
+While some developers immediately start getting opportunities after graduating from college or boot camp, many developers still face this issue. Speaking from experience, I have built plenty of projects, cloned websites from end to end, and won a few hackathons. Yet my first tech job came from a somewhat overlooked territory by many developers.
 
 I'm talking about open source—the key to getting valuable connections and opportunities. But before we begin, a proper definition of the term is required.
 
@@ -15,7 +17,7 @@ According to <a href="https://en.wikipedia.org/wiki/Open-source_software">Wikipe
 
 Some popular open source software includes: [Brave Browser](https://github.com/brave), [React](https://github.com/meta/react), [VLC](https://github.com/videolan/vlc), [VueJS](https://github.com/vue/vuejs), [Mozilla Firefox](https://github.com/mozilla), [Linux](https://github.com/torvalds/linux), [LibreOffice](https://github.com/torvalds/linux), and many more.
 
-In this article, I'll outline ways open source can advance your career as a developer, and In some of the steps mentioned, I have taken the pleasure of adding real-life testimonies to re-enforce my points further. So without further ado, here are the ways open source projects can boost your career as a developer.
+In this article, I'll outline ways open source can advance your career as a developer, and In some of the steps mentioned, I have taken the pleasure of adding real-life testimonies to re-enforce my points further. So without further ado, here are the ways open source can boost your career as a developer.
 
 ## 1. Grow your network
 This is one of the most significant benefits of contributing to open source. A lot of developers in different niches contribute to open source projects. We have maintainers, engineers, software developers, and companies, and you may not believe it, some recruiters too. Contributing to projects gets you noticed by this diverse number of individuals. 
@@ -25,7 +27,7 @@ The easiest way to do this is to check out projects you're interested in. It doe
 
 A one-time pull request to a project is reasonable, but the consistent contributions and collaboration to individual projects get you noticed. As you become a frequent contributor to such projects, maintainers will start remembering your name. When there's an issue they know you can handle, they'll assign it to you. This is why I advise contributors to avoid jumping from project to project.
 
-Another great way to grow your network is by joining communities around these projects. There's a good chance some of the tasks you're contributing to have communities outside of GitHub, like discord channels, slack groups, etc. This is a great place to interact with the maintainers and fellow contributors in a more friendly environment. Join the communities, and participate in discussions. You'll be surprised how your network will snowball. 🏂🏽
+Another great way to grow your network is by joining communities around these projects. There's a good chance some of the projects you're contributing to have communities outside of GitHub, like discord channels, slack groups, etc. This is a great place to interact with the maintainers and fellow contributors in a more friendly environment. Join the communities, and participate in discussions. You'll be surprised how your network will snowball. 🏂🏽
 
 ## 2. Upgrade your skills.
 Open source helps you grow your skills and not just with coding; you can also learn valuable soft skills like communication, effective collaboration, management, leadership, and so on. These are skills top organizations are looking for in a candidate.
@@ -33,9 +35,9 @@ Open source helps you grow your skills and not just with coding; you can also le
 Some of the skills that can be improved while contributing to open source projects include:
 
 ### Collaboration skills
-The ability to collaborate effectively is a great skill I believe every developer should have. While it might sound easy, I promise you, it is not. I once had the pleasure of collaborating with a group of over 50+ developers and designers in an internship, pushing code, and reviewing pull requests. This process taught me a lot about how developers have formed strong opinions around specific technologies, coding styles, and best practices in areas like folder structure, a favorite tool for writing tests, favorite way of writing CSS, preferred JS framework, etc.
+The ability to collaborate effectively is a great skill I believe every developer should have. While it might sound easy, I promise you, it is not. I once had the pleasure of collaborating with a group of over 50+ developers and designers in an internship, pushing code, and reviewing pull requests. This process taught me a lot about how developers have formed strong opinions around specific technologies, coding styles, and best practices in areas like their preferred folder structure, favorite tool for writing tests, favorite way of writing CSS, preferred JS framework, etc.
 
-While most top organizations already follow a specific, consistent pattern, you can still encounter these differences.
+While most top organizations already follow a consistent pattern, you can still encounter these differences from time to time.
 
 Contributing to open source can improve your collaborating skills, which will, in turn, help you make the best decisions and wise judgment in conditions like: 
 
@@ -58,7 +60,7 @@ Many developers are under the impression that they must contribute to those popu
 
 I bet when Dan was contributing to "React" at that early stages, it wasn't the most popular frontend framework.
 
-Another similar example is the story of how [Ian Sutherland](https://github.com/iansu) became one of the core contributors of the "Create React App" project. He started by being active in the conversations and contributing to discussions, and not before long; he became one of the core contributors of Create React App**.
+Another similar example is the story of how [Ian Sutherland](https://github.com/iansu) became one of the core contributors of the "Create React App" project. He started by being active in the conversations and contributing to discussions, and not before long; he became one of the core contributors of **Create React App**.
 
 ![create-react-app-teams](https://cdn.hashnode.com/res/hashnode/image/upload/v1661171669528/yFO7U7vHV.png align="left")
 
@@ -93,6 +95,6 @@ Start contributing to open source immediately if you're a developer without enou
 I hope you learned a few things from this article. I'll share a series very soon to help developers who want to learn how to contribute to open source, find projects, and more. So like, share, and follow me, so you don't miss any new episodes. 
 
 ## Support 
-If you like what I do, share it with a friend, or buy me a coffee, and I'll sincerely appreciate it. Thanks for reading. Bye. 
+Thanks for reading. If you like what I do, share it with a friend, or buy me a coffee, and I'll sincerely appreciate it.
 
 <a href="https://www.buymeacoffee.com/evavic44"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=evavic44&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
