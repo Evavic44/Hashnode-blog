@@ -1,4 +1,4 @@
-## Portfolio Ideas - An open-source repository for inspiration
+# Portfolio Ideas - An open-source repository for inspiration
 
 Are you about to build your portfolio, and you don't have any idea of what you want it to look like? Search no more, as I present to you [portfolio ideas](https://github.com/evavic44/portfolio-ideas): A repository of incredible developer portfolios you can draw inspiration from.
 It is also a beginner-friendly open-source project for developers looking to contribute for the first time.
@@ -12,7 +12,7 @@ There isn't much going on in this project, it's a table that shows a list of por
 2.  Screenshot: A screenshot of the portfolio website homepage is added so you don't have to click the link before knowing what it looks like.
 3. Live URL: Link to visit the portfolio website.
 4. Repository Link: Link to the source file or code of the portfolio. This is not a mandatory field because not all portfolios will be available on GitHub or even shared by their authors.
-5. Tech Stack: The technologies used in building the project. Since some portfolios might have a monstrous number of technologies, this project only captures the essential or primary technologies used in building it. 
+5. Tech Stack: The technologies used in building the project. Since some portfolios might have a monstrous number of technologies, this project only captures the essential or primary technologies used in building them. 
 
 ![Prview of the main README file](https://cdn.hashnode.com/res/hashnode/image/upload/v1653934929274/mt9c8GtZZ.png align="left")
 
@@ -44,7 +44,7 @@ Start a new line below the latest portfolio and add the author or creator of the
 ![Add Author Name](https://cdn.hashnode.com/res/hashnode/image/upload/v1654177368308/K3bxViKpn.png align="left")
 
 ### Screenshot
-Visit the portfolio website and take a screenshot of the homepage, drag and drop it into the screenshot column. Please, before adding the screenshot, use services like [tinypng.com](https://tinypng.com) or [compressor.io](https://compressor.io) to optimize the image sizes.
+Visit the portfolio website and take a screenshot of the homepage, and drag and drop it into the screenshot column. Please, before adding the screenshot, use services like [tinypng.com](https://tinypng.com) or [compressor.io](https://compressor.io) to optimize the image sizes.
 
 ![gif showing the screenshot being dragged and dropped on the project README](https://cdn.hashnode.com/res/hashnode/image/upload/v1650495714252/NSLTPxLxe.gif)
 
@@ -78,11 +78,11 @@ Now we are done adding all the portfolio information, preview the portfolio adde
 Congratulations! You have successfully added a portfolio to this project. Now sit back, relax and your PR will be merged as soon as it has been reviewed. Thanks.
 
 ## Additional Information 🤔
-If you need any additional guidance or have an idea that can improve this project, feel free to contact me on [Twitter](https://twitter.com/evavic44), or raise an [issue](https://github.com/Evavic44/portfolio-ideas/issues/29) in the repository let's discuss it. 
+If you need any additional guidance or have an idea that can improve this project, feel free to contact me on [Twitter](https://twitter.com/victorekea), or raise an [issue](https://github.com/Evavic44/portfolio-ideas/issues/29) in the repository let's discuss it. 
 
 ## Sponsor
 Do you like this project and will like to show your support, you can star the project or buy me a coffee, I'll sincerely appreciate it.
 
 <a href="https://www.buymeacoffee.com/evavic44"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=evavic44&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
 
-I hope you have a lot of fun while contributing to this project, if you drew inspiration from any portfolio on this repo, consider sending the creator a thank you message. I sincerely hope you build an outstanding portfolio website that will blow the recruiter or visitor's mind and when you do create one, add it to this repository to help others. Goodluck. 💜
+I hope you have a lot of fun while contributing to this project, if you drew inspiration from any portfolio on this repo, consider sending the creator a thank you message. I sincerely hope you build an outstanding portfolio website that will blow the recruiter or visitor's mind and when you do create one, add it to this repository to help others. Good luck. 💜
