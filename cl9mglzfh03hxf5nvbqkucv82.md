@@ -12,7 +12,7 @@ These milestones might seem impressive (or maybe not 😅), but I assure you, it
 
 ![Viewing other people's github pages](https://cdn.hashnode.com/res/hashnode/image/upload/v1656804587807/_R2k7hCqN.png align="left")
 
-Some of the projects I built at the time didn't even get up to 2 stars, even though I spent countless hours building and maintaining them. Haven't learned a lot of lessons and contributed to a few stellar projects like [Visual Studio Code](https://github.com/google/google-chrome-docs), [Vite](https://github.com/vite/vitejs), [freeCodeCamp](https://github.com/freecodecamp), and more, even though most of my contributions were minimal and on the documentation, I've noticed a few patterns these projects follow to achieve the milestones they have been able to achieve, which is what I'll be sharing with you from this point on and till the end of the article.
+Some of the projects I built at the time didn't even get up to 2 stars, even though I spent countless hours building and maintaining them. Having learned a lot of lessons and contributed to a few stellar projects like [Visual Studio Code](https://github.com/google/google-chrome-docs), [Vite](https://github.com/vite/vitejs), [freeCodeCamp](https://github.com/freecodecamp), and more, even though most of my contributions were minimal and on the documentation, I've noticed a few patterns these projects follow to achieve the milestones they have been able to achieve, which is what I'll be sharing with you from this point on and till the end of the article.
 
 So without further ado, here are 9 patterns to follow in building a successful open-source project.
 
