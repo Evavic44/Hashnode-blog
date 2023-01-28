@@ -67,8 +67,6 @@ Below are a few testimonials from some of the contributors. Maybe not much, but 
 <img src="https://user-images.githubusercontent.com/62628408/214972007-72c6050a-8bd0-44c2-8753-54187759ad09.png" />
 </details>
 
-  
-
 # March - April
 
 ### 1\. Won $1000 in Hashnode Hasura Hackathon
@@ -91,8 +89,6 @@ I was invited by a previous company I worked with back in 2021 to teach develope
 
 It was both a fun and frightening experience. Though the recording wasn't all that great, there was still some value to be gotten from the session, and most importantly, it made me aspire to start making YouTube content, which is one of my main goals for the new year.
 
-  
-
 # April - May
 
 ### 1\. Got a freelance gig
@@ -112,8 +108,6 @@ I got an invite for a developer meetup organized by Cloudinary at TechChreek, Po
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674754006227/ebd8d2cf-7643-4c1b-832f-c83b82419a9d.png align="center")
 
 They gave us cash prizes, swags, stickers. Etc. It was fun.
-
-  
 
 # June - July
 
@@ -155,8 +149,6 @@ I spoke with a few friends who convinced me to apply to a few companies hiring t
 
 None got back to me.
 
-  
-
 # August - September
 
 ### 1\. Got into freeCodeCamp as a contributor
@@ -188,8 +180,6 @@ As I write this article, I still feel regretful for not accepting this role. Thi
 After working with Spiff on the hackathon together, we got a freelance gig from a real estate company that involved a good fee and equity.
 
 The project stack is in NextJS, Tailwind CSS, Google Map and Planetscale. The timeline we set to complete this project is 4 months, and currently we are about to deploy the app for the first time. I am quite excited about this project and can't wait to share it at the end.
-
-  
 
 # October - December
 
@@ -227,8 +217,6 @@ Few days before the end of 2022, I received an anonymous donation of $5 to my bu
 
 If you're reading this post, bjalexandru, please know that I am grateful for your support. ❤️
 
-  
-
 # Goals for 2023
 
 This is the most important part of this post, and probably one of the reasons I took a while to write it. By carefully reflecting on my past mistakes, I have documented all I plan on achieving in this new year.
@@ -255,8 +243,6 @@ This is the most important part of this post, and probably one of the reasons I 
     
 11. Land a full-time remote developer role.
     
-
-  
 
 # Summary
 
@@ -302,5 +288,3 @@ And many other people too numerous to mention. Thank you all for your support an
 ---
 
 [GitHub](https://github.com/evavic44) | [Twitter](https://twitter.com/victorekea) | [LinkedIn](https://linkedin.com/in/victorekeawa)
-
-[![](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=evavic44&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff align="left")](https://www.buymeacoffee.com/evavic44)
