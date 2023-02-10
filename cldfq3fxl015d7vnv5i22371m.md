@@ -103,7 +103,7 @@ At this point, I was looking to redesign my portfolio site, [victoreke.com](http
 
 ### 3\. Won a Cloudinary Jamstack Hackathon
 
-I got an invite for a developer meetup organized by Cloudinary at TechChreek, Port Harcourt. At the event, there was an ongoing hackathon being held. Just for fun, I opted to participate which made them pair me with two other amazing developers. We spent approximately 2hrs working on the project. Eventually we presented and to my greatest surprise, we came second.
+I got an invite for a developer meetup organized by [Cloudinary](https://cloudinary.com/) at TechChreek, Port Harcourt. At the event, there was an ongoing hackathon being held. Just for fun, I opted to participate which made them pair me with two other amazing developers. We spent approximately 2hrs working on the project. Eventually we presented and to my greatest surprise, we came second.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674754006227/ebd8d2cf-7643-4c1b-832f-c83b82419a9d.png align="center")
 
