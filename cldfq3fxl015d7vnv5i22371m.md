@@ -1,4 +1,12 @@
-# Reflecting on my 2022 Developer Journey
+---
+title: "Reflecting on my 2022 Developer Journey"
+datePublished: Sat Jan 28 2023 09:00:39 GMT+0000 (Coordinated Universal Time)
+cuid: cldfq3fxl015d7vnv5i22371m
+slug: reflecting-on-my-2022-developer-journey
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704069986306/8754fe8c-72fc-442e-983d-36dd8d5a3f39.jpeg
+tags: developer, coding, career, devretro2022
+
+---
 
 I've been thinking to myself, what did I achieve in 2022, what decisions did I make, and what has been the implications of each action? In this post, I'll be answering all of these questions by sharing my 2022 journey as a developer.
 
