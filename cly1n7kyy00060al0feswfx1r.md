@@ -14,7 +14,7 @@ Managing GitHub repositories from your terminal can significantly enhance your d
 
 ## Install GitHub CLI
 
-GitHub CLI, or `gh`, is an open-source command-line interface to GitHub for use in your terminal or your scripts. You need to install it into your PC to start using it. Visit the link above to download and install it into your machine.
+[GitHub CLI](https://cli.github.com/), or `gh`, is an open-source command-line interface to GitHub for use in your terminal or your scripts. You need to install it into your PC to start using it. Visit the link above to download and install it into your machine.
 
 ## Create a New Repository
 
